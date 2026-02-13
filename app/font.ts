@@ -17,15 +17,15 @@ export const playfair = localFont({
 });
 
 // SECONDARY FONT
-export const montserrat = localFont({
+export const Roboto = localFont({
   src: [
     {
-      path: "./fonts/Montserrat/Montserrat-VariableFont_wght.ttf",
+      path: "./fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf",
       weight: "100 900",
       style: "normal",
     },
     {
-      path: "./fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf",
+      path: "./fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf",
       weight: "100 900",
       style: "italic",
     },
