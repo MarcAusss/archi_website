@@ -4,7 +4,7 @@ import ExpertisePage from "./components/expertise";
 import FaqPage from "./components/faq";
 import LandingPage from "./components/landing";
 import Latest_projectPage from "./components/latest_project";
-import TestimonialsPage from "./components/testimonials";
+import BlogPage from "./components/blogs";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
         <ExpertisePage/>
       </div>
       <div className="max-w-365 mx-auto">
-        <TestimonialsPage/>
+        <BlogPage/>
       </div>
       <div className="max-w-365 mx-auto">
         <FaqPage/>
