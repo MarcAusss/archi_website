@@ -1,6 +1,6 @@
+import Link from "next/link";
 import { Roboto } from "../font";
 
-Roboto
 
 export default function TestimonialsPage() {
     return (
