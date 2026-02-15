@@ -19,6 +19,20 @@ export default function ExpertisePage() {
                         </div>
                     </div>
                 </div>
+                <div className="grid grid-cols-[0.8fr_2fr_0.8fr] grid-rows-3">
+
+                    <div className="col-start-1 row-start-1 border border-black">div1</div>
+                    <div className="col-start-1 row-start-2 border border-black">div2</div>
+                    <div className="col-start-1 row-start-3 border border-black">div3</div>
+
+                    <div className="col-start-2 row-start-1 row-span-3 border border-black">div4</div>
+
+                    <div className="col-start-3 row-start-1 border border-black">div5</div>
+                    <div className="col-start-3 row-start-2 border border-black">div6</div>
+                    <div className="col-start-3 row-start-3 border border-black">div7</div>
+
+                </div>
+
             </div>
         </div>
     );
