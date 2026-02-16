@@ -1,4 +1,5 @@
 import { Roboto } from "@/app/font";
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -22,8 +23,8 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="w-full relative h-50 ">
-                
+            <div className="w-full relative overflow-hidden h-60">
+                <Image src="/images/Group 93.png" fill alt="" className="object-cover object-top"/>
             </div>
         </div>
     );
