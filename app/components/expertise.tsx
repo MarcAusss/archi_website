@@ -41,8 +41,9 @@ export default function ExpertisePage() {
                     <div className="col-start-3 row-start-2 flex items-center">
                         
                     </div>
-                    <div className="col-start-3 row-start-3 flex items-end">
-                        
+                    <div className="col-start-3 row-start-3 flex justify-end flex-col px-5">
+                        <h1 className={`${Roboto.className} font-semibold text-xl`}>Residential Design</h1>
+                        <p className={`${Roboto.className} text-sm`}>Crafting spaces that seamlessly blen functionality and aesthetics</p>
                     </div>
 
                 </div>
