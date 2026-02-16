@@ -1,5 +1,5 @@
+import Image from "next/image";
 import { Roboto } from "../font";
-
 
 export default function ExpertisePage() {
     return (
@@ -19,17 +19,31 @@ export default function ExpertisePage() {
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-[0.8fr_2fr_0.8fr] grid-rows-3">
+                <div className="grid grid-cols-[0.8fr_2fr_0.8fr] mt-5 grid-rows-3">
 
-                    <div className="col-start-1 row-start-1 border border-black">div1</div>
-                    <div className="col-start-1 row-start-2 border border-black">div2</div>
-                    <div className="col-start-1 row-start-3 border border-black">div3</div>
+                    <div className="col-start-1 row-start-1 flex justify-end">
 
-                    <div className="col-start-2 row-start-1 row-span-3 border border-black">div4</div>
+                    </div>
+                    <div className="col-start-1 row-start-2 flex items-center justify-end">
+                        
+                    </div>
+                    <div className="col-start-1 row-start-3 flex items-end justify-end">
+                        
+                    </div>
 
-                    <div className="col-start-3 row-start-1 border border-black">div5</div>
-                    <div className="col-start-3 row-start-2 border border-black">div6</div>
-                    <div className="col-start-3 row-start-3 border border-black">div7</div>
+                    <div className="col-start-2 row-start-1 h-[62vh] row-span-3 relative w-[2fr]">
+                        <Image src="/images/created_with_our_tool_center@2x.webp" alt="" fill className="object-cover"/>
+                    </div>
+
+                    <div className="col-start-3 row-start-1">
+                        
+                    </div>
+                    <div className="col-start-3 row-start-2 flex items-center">
+                        
+                    </div>
+                    <div className="col-start-3 row-start-3 flex items-end">
+                        
+                    </div>
 
                 </div>
 
