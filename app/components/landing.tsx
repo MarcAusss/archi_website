@@ -22,7 +22,7 @@ export default function LandingPage() {
     }, 4000);
 
     return () => clearInterval(interval);
-  }, []);
+  });
 
   const getWidth = (index: number) => {
     if (active === null) {
@@ -118,7 +118,7 @@ export default function LandingPage() {
         </AnimatePresence>
 
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 z-10" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/40 to-black/70 z-10" />
 
         {/* Text Content */}
         <motion.div
