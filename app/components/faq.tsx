@@ -41,7 +41,7 @@ export default function FaqPage() {
 
 
     return (
-        <div className="py-10">
+        <div className="py-10 lg:mx-0 mx-5">
             <h1 className={`${Roboto.className} tracking-wider my-2`}>FAQS</h1>
             <div className="border-t border-gray-400 pt-8 pb-14">   
                 <div className="grid grid-cols-1 md:grid-cols-[1fr_1.6fr] gap-10 items-start">

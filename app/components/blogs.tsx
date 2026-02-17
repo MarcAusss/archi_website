@@ -33,7 +33,7 @@ export default function BlogPage() {
   const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
 
   return (
-    <div ref={sectionRef} className="my-10 overflow-hidden">
+    <div ref={sectionRef} className="my-10 overflow-hidden lg:mx-0 mx-5">
 
       {/* HEADER */}
       <motion.div
@@ -67,7 +67,7 @@ export default function BlogPage() {
         transition={{ duration: 1 }}
         className="border-t border-gray-400 pt-8"
       >
-        <h1 className="text-[2.8rem] leading-none text-justify">
+        <h1 className="text-[2.8rem] leading-none lg:text-justify text-normal">
           Navigating the world <br /> of architecture
         </h1>
 
@@ -79,7 +79,7 @@ export default function BlogPage() {
       </motion.div>
 
       {/* IMAGES SECTION */}
-      <div className="flex justify-between relative h-[80vh] w-full items-end mt-10">
+      <div className="flex justify-between relative lg:h-[80vh] h-[60vh] w-full items-end lg:mt-10  mt-5">
 
         {/* FIRST IMAGE */}
         <motion.div

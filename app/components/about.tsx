@@ -56,7 +56,7 @@ export default function AboutPage() {
   const words = text.split(" ");
 
   return (
-    <div className="my-10">
+    <div className="my-10 lg:mx-0 mx-5">
       <h1 className={`${Roboto.className} tracking-wider my-2`}>ABOUT US</h1>
 
       <div

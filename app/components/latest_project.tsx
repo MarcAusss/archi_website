@@ -22,7 +22,7 @@ const fadeUp: Variants = {
 
 export default function Latest_projectPage() {
   return (
-    <div className="my-10 relative">
+    <div className="my-10 relative lg:mx-0 mx-5">
       
       {/* Sticky Header */}
       <div className="sticky top-0 z-20 bg-white">
@@ -69,7 +69,7 @@ export default function Latest_projectPage() {
         </motion.div>
 
         {/* SECOND + THIRD */}
-        <div className="flex items-center justify-between max-lg:flex-col max-lg:gap-10">
+        <div className="flex items-center justify-between max-lg:flex-col lg:mt-0 mt-10 max-lg:gap-10">
 
           {/* SECOND IMAGE */}
           <motion.div
@@ -117,7 +117,7 @@ export default function Latest_projectPage() {
             whileInView="show"
             viewport={{ amount: 0.3 }}
             transition={{ delay: 0.4 }}
-            className="w-[35%] mt-10 max-lg:w-full"
+            className="w-[35%] mt-5 lg:mt-10 max-lg:w-full"
           >
             <motion.div
               className="w-full h-130 relative"
@@ -128,7 +128,7 @@ export default function Latest_projectPage() {
                 delay: 0.5,
                 ease: [0.22, 1, 0.36, 1],
               }}
-              viewport={{ amount: 0.5 }}
+              viewport={{ amount: 0.1 }}
             >
               <Image
                 src="/images/Exterior-Cam02-R1-1-0-0-1-scaled.jpg"
